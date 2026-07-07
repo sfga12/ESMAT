@@ -40,4 +40,4 @@ The primary purpose of ESMAT is to provide a comprehensive, N-body physics engin
 4. Run the executable generated in the `build` directory. Ensure that the `data/` and `dependencies/` folders are accessible relative to the executable path.
 
 ## Acknowledgements
-Founded By The Scientific and Technological Research Council of Turkey (TÜBİTAK)
+Founded by The Scientific and Technological Research Council of Türkiye (TÜBİTAK)
