@@ -908,7 +908,7 @@ void SaveProjectToFolder(const std::string& folderPath, const std::vector<Celest
                     else if (b.id == 8 || b.id == 899) texFile = "NeptuneTexture.jpg";
 
                     if (!texFile.empty()) {
-                        objF << "TEXTURE_PATH=" << ResolvePath("data\\textures\\" + texFile) << "\n";
+                        objF << "TEXTURE_PATH=" << ("data\\textures\\" + texFile) << "\n";
                     }
 
                     objF << "J2=" << b.j2 << "\n"; // ParsedSpiceBody should also have j2 or we query it here
@@ -6108,7 +6108,7 @@ int main()
                                 else if (b.id == 8 || b.id == 899) texFile = "NeptuneTexture.jpg";
 
                                 if (!texFile.empty()) {
-                                    objF << "TEXTURE_PATH=" << ResolvePath("data\\textures\\" + texFile) << "\n";
+                                    objF << "TEXTURE_PATH=" << ("data\\textures\\" + texFile) << "\n";
                                 }
 
                                 objF << "J2=" << b.j2 << "\n";
