@@ -1,0 +1,23 @@
+# ESMAT .gitignore
+
+# Build directories
+/build/
+/Output/
+
+# Python scripts/folders
+/esmatpy/
+__pycache__/
+*.pyc
+
+# IDEs and Editors
+/.vscode/
+/.vs/
+*.user
+
+# Local configuration files
+imgui.ini
+CMakeSettings.json
+
+# OS generated files
+.DS_Store
+Thumbs.db

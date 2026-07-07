@@ -1,0 +1,23 @@
+KPL/PCK
+
+       Solar System Geophysical Constants (J2)
+       ---------------------------------------
+       This kernel contains J2 (zonal harmonic) values for major 
+       celestial bodies in the Solar System.
+
+\begindata
+
+      BODY10_J2      = 2.2D-7
+      BODY199_J2     = 6.0D-5
+      BODY299_J2     = 4.458D-6
+      BODY399_J2     = 1.082626D-3
+      BODY399_J3     = -2.532D-6
+      BODY399_J4     = -1.610D-6
+      BODY301_J2     = 2.027D-4
+      BODY499_J2     = 1.96045D-3
+      BODY599_J2     = 1.4736D-2
+      BODY699_J2     = 1.6298D-2
+      BODY799_J2     = 3.34343D-3
+      BODY899_J2     = 3.40843D-3
+
+\begintext
